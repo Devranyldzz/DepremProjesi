@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         const data = await response.json();
         data.sort((a, b) => new Date(b.date) - new Date(a.date));
-
-        // Tabloyu doldur
         tableBody.innerHTML = data.map(event => `
             <tr>
                 <td>${new Date(event.date).toLocaleString()}</td>
