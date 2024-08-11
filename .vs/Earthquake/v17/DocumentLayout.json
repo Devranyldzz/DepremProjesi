@@ -1,0 +1,142 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|c:\\users\\devranarday1002\\source\\repos\\earthquake\\earthquake\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|solutionrelative:earthquake\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|c:\\users\\devranarday1002\\source\\repos\\earthquake\\earthquake\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|solutionrelative:earthquake\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|c:\\users\\devranarday1002\\source\\repos\\earthquake\\earthquake\\context\\earthquakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|solutionrelative:earthquake\\context\\earthquakecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|c:\\users\\devranarday1002\\source\\repos\\earthquake\\earthquake\\classlar\\earthquake1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|solutionrelative:earthquake\\classlar\\earthquake1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|c:\\users\\devranarday1002\\source\\repos\\earthquake\\earthquake\\service\\earthquakeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|solutionrelative:earthquake\\service\\earthquakeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|c:\\users\\devranarday1002\\source\\repos\\earthquake\\earthquake\\controllers\\earthquakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|solutionrelative:earthquake\\controllers\\earthquakecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|c:\\users\\devranarday1002\\source\\repos\\earthquake\\earthquake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6C38D70-2480-4860-942D-1EB635AC8F29}|Earthquake\\Earthquake.csproj|solutionrelative:earthquake\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Earthquake1.cs",
+              "DocumentMoniker": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\Classlar\\Earthquake1.cs",
+              "RelativeDocumentMoniker": "Earthquake\\Classlar\\Earthquake1.cs",
+              "ToolTip": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\Classlar\\Earthquake1.cs",
+              "RelativeToolTip": "Earthquake\\Classlar\\Earthquake1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T20:38:36.874Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EarthquakeService.cs",
+              "DocumentMoniker": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\Service\\EarthquakeService.cs",
+              "RelativeDocumentMoniker": "Earthquake\\Service\\EarthquakeService.cs",
+              "ToolTip": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\Service\\EarthquakeService.cs",
+              "RelativeToolTip": "Earthquake\\Service\\EarthquakeService.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAQwCUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T20:42:12.265Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EarthquakeController.cs",
+              "DocumentMoniker": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\Controllers\\EarthquakeController.cs",
+              "RelativeDocumentMoniker": "Earthquake\\Controllers\\EarthquakeController.cs",
+              "ToolTip": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\Controllers\\EarthquakeController.cs",
+              "RelativeToolTip": "Earthquake\\Controllers\\EarthquakeController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-04T20:47:17.717Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\Program.cs",
+              "RelativeDocumentMoniker": "Earthquake\\Program.cs",
+              "ToolTip": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\Program.cs",
+              "RelativeToolTip": "Earthquake\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T09:53:29.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EarthquakeContext.cs",
+              "DocumentMoniker": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\context\\EarthquakeContext.cs",
+              "RelativeDocumentMoniker": "Earthquake\\context\\EarthquakeContext.cs",
+              "ToolTip": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\context\\EarthquakeContext.cs",
+              "RelativeToolTip": "Earthquake\\context\\EarthquakeContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-07T17:49:15.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Earthquake\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\appsettings.Development.json",
+              "RelativeToolTip": "Earthquake\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T17:48:10.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\appsettings.json",
+              "RelativeDocumentMoniker": "Earthquake\\appsettings.json",
+              "ToolTip": "C:\\Users\\devranarday1002\\source\\repos\\Earthquake\\Earthquake\\appsettings.json",
+              "RelativeToolTip": "Earthquake\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-07T17:45:08.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
