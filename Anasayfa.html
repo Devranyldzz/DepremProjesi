@@ -3,19 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Deprem Verileri</title>
+    <title>DevAp Deprem Verileri</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="deprem.css">
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="img/devap.png" alt="Logo" width="300"></a>
-            <h3 class="mx-auto">AFAD Son Depremler (Son 100 Deprem)</h3>
+          <img src="img/devap.png" alt="Logo" width="300" class="resim">
+            <h3 class="mx-auto"><b>AFAD Son Depremler (Son 100 Deprem)</b></h3>
         </div>
     </nav>
 
-    <div class="container my-5 text-center"> 
+    <div class="container-fluid my-2 text-center"> 
         <h1 class="mb-4">Deprem Verileri</h1>
         <div class="table-wrapper mx-auto">
             <table id="dataTable" class="table table-striped table-bordered">
@@ -25,7 +26,7 @@
                         <th>Enlem</th>
                         <th>Boylam</th>
                         <th>Derinlik</th>
-                        <th>Tür</th>
+                        <th>Tip</th>
                         <th>Büyüklük</th> 
                         <th>Yer</th>
                     </tr>
@@ -37,6 +38,5 @@
         </div>
         <div id="error" class="alert alert-danger mt-4" role="alert" style="display: none;"></div>
     </div>
-
     <script src="deprem.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script

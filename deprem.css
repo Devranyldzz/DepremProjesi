@@ -1,4 +1,3 @@
-/* Genel düzenlemeler */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -7,6 +6,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+.resim{
+    border-radius:20px;
+  
 }
 
 .navbar {
@@ -21,9 +24,10 @@ body {
 
 .table {
     background-color: #fff;
-    border-radius: .375rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    margin-bottom: 20px; 
+    box-shadow: 0 0.5rem 1rem rgba(204, 68, 68, 0.15);
+    margin-bottom: 20px;
+
+
 }
 
 .table th, .table td {
@@ -31,11 +35,12 @@ body {
 }
 
 .table th {
-    background-color: #e9ecef;
+    background-color: #1e00ff;
+    color:#fff;
 }
 
 .table-info th {
-    background-color: #d1ecf1;
+    background-color: #d2d1f1;
     color: #0c5460;
     font-size: 0.9em;
 }

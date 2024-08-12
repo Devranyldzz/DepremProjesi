@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <td>${event.latitude}</td>
                 <td>${event.longitude}</td>
                 <td>${event.depth}</td>
-                <td>${event.magnitude}</td>
-                <td>${event.type}</td> <!-- type ekledik -->
+                <td>${event.type}</td>
+                <td>${event.magnitude}</td> <!-- type ekledik -->
                 <td>${event.location}</td>
             </tr>
         `).join('');
