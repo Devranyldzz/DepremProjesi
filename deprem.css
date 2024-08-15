@@ -5,11 +5,11 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100vh; /* Min-height değerini 100px yerine 100vh olarak ayarladık */
 }
-.resim{
-    border-radius:20px;
-  
+
+.resim {
+    border-radius: 20px;
 }
 
 .navbar {
@@ -17,26 +17,27 @@ body {
 }
 
 .table-wrapper {
-    display: inline-block; 
+    display: block; /* Inline-block yerine block */
     width: 100%;
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Mobil cihazlarda pürüzsüz kaydırma için */
 }
 
 .table {
     background-color: #fff;
     box-shadow: 0 0.5rem 1rem rgba(204, 68, 68, 0.15);
     margin-bottom: 20px;
-
-
+    width: 100%;
 }
 
 .table th, .table td {
     text-align: center;
+    padding: 8px; /* Daha iyi görünürlük için padding */
 }
 
 .table th {
     background-color: #1e00ff;
-    color:#fff;
+    color: #fff;
 }
 
 .table-info th {
@@ -44,33 +45,38 @@ body {
     color: #0c5460;
     font-size: 0.9em;
 }
+
+.button {
+    background-color: rgb(255, 72, 0);
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    padding: 4px 8px;
+}
+
+/* Mobil uyumlu tasarım için medya sorguları */
+
 @media (max-width: 768px) {
-    .navbar-brand img {
-        width: 200px;
+    .table th, .table td {
+        font-size: 0.875rem; /* Daha küçük font boyutu */
+        padding: 4px; /* Daha küçük padding */
     }
 
-    .table thead {
-        display: none;
+    .table-wrapper {
+        padding: 0 10px; /* Mobil uyumlu padding */
     }
 
-    .table, .table tbody, .table tr, .table td {
-        display: block;
-        width: 100%;
+    .resim {
+        width: 200px; /* Daha küçük logo boyutu */
     }
 
-    .table td {
-        text-align: right;
-        position: relative;
-        padding-left: 50%;
+    .navbar {
+        text-align: center;
     }
+}
 
-    .table td::before {
-        content: attr(data-label);
-        position: absolute;
-        left: 0;
-        width: 45%;
-        padding-left: 10px;
-        font-weight: bold;
-        text-align: left;
+@media (max-width: 576px) {
+    .table th, .table td {
+        font-size: 0.75rem; /* Daha küçük font boyutu */
     }
 }

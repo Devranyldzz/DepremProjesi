@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.resim {
+    border-radius: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container-fluid {
+    padding: 0 20px;
+}
+
+.map-container {
+    height: 500px; /* Haritanın yüksekliği */
+    width: 100%; /* Tam genişlik */
+    border-radius: 15px; /* Köşe yuvarlatmaları */
+    overflow: hidden; /* Köşe yuvarlatmalarının görünmesini sağlar */
+}
+
+#map {
+    width: 100%; /* Tam genişlik */
+    height: 100%; /* Tam yükseklik */
+    border-radius: 15px; /* Köşe yuvarlatmaları */
+}
+
+.details-container {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px; /* Köşe yuvarlatmaları */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Kutunun gölgesi */
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.table th,
+.table td {
+    vertical-align: middle; /* Hücrelerin ortalanması */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Alternatif satır rengi */
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6; /* Tablo sınır rengi */
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6; /* Hücre sınır rengi */
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Küçük ekranlarda dikey düzen */
+        align-items: center;
+    }
+
+    .map-container, .details-container {
+        width: 100%; /* Yatay düzen için genişlik ayarı */
+        height: 300px; /* Küçük ekranlarda yüksekliği azalt */
+    }
+}
+
