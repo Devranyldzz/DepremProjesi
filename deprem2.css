@@ -71,3 +71,14 @@ body {
         height: 300px; /* Küçük ekranlarda yüksekliği azalt */
     }
 }
+
+.deprem-tag{
+    border-radius:100%;
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-size:small;
+    font-weight:bold;
+}
