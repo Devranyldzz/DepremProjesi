@@ -22,6 +22,7 @@ body {
     width: 100%; /* Tam genişlik */
     border-radius: 15px; /* Köşe yuvarlatmaları */
     overflow: hidden; /* Köşe yuvarlatmalarının görünmesini sağlar */
+    position: relative;
 }
 
 #map {
@@ -30,34 +31,56 @@ body {
     border-radius: 15px; /* Köşe yuvarlatmaları */
 }
 
-.details-container {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 15px; /* Köşe yuvarlatmaları */
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Kutunun gölgesi */
+#info-box {
+    width: 200px; /* Genişlik ayarı */
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 0.9;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    font-size: 14px; /* Yazı boyutu */
 }
 
-.table {
-    border-collapse: separate;
-    border-spacing: 0;
+#info-table th, #info-table td {
+    text-align: center;
+    vertical-align: middle;
 }
 
-.table th,
-.table td {
-    vertical-align: middle; /* Hücrelerin ortalanması */
+.color-box {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
 }
 
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: #f2f2f2; /* Alternatif satır rengi */
+.green {
+    background-color: #00FF00;
 }
 
-.table-bordered {
-    border: 1px solid #dee2e6; /* Tablo sınır rengi */
+.blue {
+    background-color: #00FFFF;
 }
 
-.table-bordered th,
-.table-bordered td {
-    border: 1px solid #dee2e6; /* Hücre sınır rengi */
+.green2 {
+    background-color: #006400;
+}
+
+.brown {
+    background-color: #DEB887;
+}
+
+.orange {
+    background-color: #FF8C00;
+}
+
+.red {
+    background-color: red;
 }
 
 @media (max-width: 768px) {
@@ -66,19 +89,35 @@ body {
         align-items: center;
     }
 
-    .map-container, .details-container {
+    .map-container, #info-box {
         width: 100%; /* Yatay düzen için genişlik ayarı */
         height: 300px; /* Küçük ekranlarda yüksekliği azalt */
     }
 }
 
-.deprem-tag{
-    border-radius:100%;
-    text-align:center;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:white;
-    font-size:small;
-    font-weight:bold;
+.deprem-tag {
+    border: 1px solid black;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.deprem-tag:hover {
+    z-index: 999;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#ac {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    z-index: 2;
 }

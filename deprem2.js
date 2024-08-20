@@ -37,16 +37,14 @@ function initMap(latitude = 0, longitude = 0,magnitude=0) {
         depremTag.style.textAlign=text;
         depremTag.style.backgroundColor=back;
     depremTag.textContent = magnitude;
-    console.log(depremTag);
     new google.maps.marker.AdvancedMarkerElement({
         position: { lat: latitude, lng: longitude },
         map: map,
         // title: 'Deprem Noktası',
         content: depremTag
-        
-
     });
 }
+
 
 // Sayfa yüklendiğinde çalışacak kod
 document.addEventListener('DOMContentLoaded', async () => {
