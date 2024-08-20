@@ -33,21 +33,21 @@
                 var text="center";
                 var magnitude=element.magnitude;
             
-                if (magnitude < 3) {
+                if (magnitude <=3) {
                     size;
                     back = "#00FF00";
-                } else if (magnitude >= 3 && magnitude <3.9) {
+                } else if (magnitude >= 3 && magnitude <=3.9) {
                     size;
                     back = "#00FFFF";
                     
-                } else if (magnitude >=4 && magnitude < 4.9) {
+                } else if (magnitude >=4 && magnitude <=4.9) {
                     size ;
                     back = "#006400";
                 } 
-                else if (magnitude >= 5 && magnitude < 5.9) {
+                else if (magnitude >= 5 && magnitude <=5.9) {
                     size;
                     back = "#DEB887";
-                }else if (magnitude >= 6 && magnitude < 6.9) {
+                }else if (magnitude >= 6 && magnitude <=6.9) {
                     size;
                     back = "#FF8C00";
                 }else if (magnitude >=7) {
