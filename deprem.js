@@ -51,3 +51,4 @@ document.addEventListener('DOMContentLoaded', async () => {
         errorDiv.classList.remove('hidden');
     }
 });
+
